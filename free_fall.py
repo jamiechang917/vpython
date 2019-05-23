@@ -1,4 +1,4 @@
-# 1D elastic collision
+# free fall
 from vpython import *
 
 size = 1 #radius of the ball
