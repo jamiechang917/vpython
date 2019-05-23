@@ -10,7 +10,7 @@ g = 19.6 # 9.8m/s^2
 t = 0
 dt = 0.001
 
-scene = canvas(title="1D elastic collision",width=800,height=600,x=0,y=0,center=vector(0,h/2,0),background=vector(0,0.6,0.6))
+scene = canvas(title="Free Fall",width=800,height=600,x=0,y=0,center=vector(0,h/2,0),background=vector(0,0.6,0.6))
 floor = box(pos=vector(0,0,0),length=40,width=10,height=0.01,color=color.blue)
 ball = sphere(pos=vector(0,h,0),radius=size,color=color.red)
 ball.v = vector(0,0,0)
