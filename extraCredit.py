@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from vpython import *
 
 size = 1 #ballSize
